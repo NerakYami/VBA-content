@@ -25,7 +25,7 @@ The  **Connections** property establishes a connection between the workbook and 
 
 ## Example
 
-The following example rereshes the OBDC and OLEDB connections of the active workbook.
+The following example refreshes the OBDC and OLEDB connections of the active workbook.
 
 ```vb
 ActiveWorkbook.Connections(1).ODBCConnection.Refresh 
